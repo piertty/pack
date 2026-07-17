@@ -1,28 +1,58 @@
 {
-  "version": "1.0.0",
   "tools": [
     {
-      "id": "smoll2lm",
-      "name": "smoll2lm AI Model",
-      "version": "1.0.0",
-      "type": "model",
-      "downloadUrl": "https://github.com/piertty/pack/releases/download/v1.0/smoll2lm.gguf",
-      "sha256": "your-sha256-hash",
-      "destination": "models/smoll2lm.gguf"
+      "name": "smoll2lm",
+      "version": "1.0",
+      "downloadUrl": "https://huggingface.co/TheBloke/smollm2-360M-Instruct-GGUF/resolve/main/smollm2-360m-instruct.Q4_K_M.gguf",
+      "description": "Chief Orchestrator - Controls all other tools, analyzes designs, generates marketing content"
     },
     {
-      "id": "llama-server",
-      "name": "llama-server (CPU)",
-      "version": "b4395",
-      "type": "binary",
-      "downloadUrl": "https://github.com/piertty/pack/releases/download/v1.0/llama-server-win-avx2-x64.zip",
-      "sha256": "your-sha256-hash",
-      "destination": "bin/llama-server.exe",
-      "extract": true
+      "name": "TopOpt",
+      "version": "1.0",
+      "downloadUrl": "https://github.com/piertty/topopt/releases/download/v1.0/topopt.exe",
+      "description": "Topology optimization - creates lightweight optimized 3D structures"
+    },
+    {
+      "name": "OpenCASCADE",
+      "version": "7.8.0",
+      "downloadUrl": "https://github.com/Open-Cascade-SAS/OCCT/releases/download/V7_8_0/opencascade-7.8.0-vc14-64.exe",
+      "description": "3D geometry kernel - generates STEP files"
+    },
+    {
+      "name": "ez-text2video",
+      "version": "1.0",
+      "downloadUrl": "https://github.com/ez-text2video/ez-text2video/archive/main.zip",
+      "description": "Text to video generator (CPU version)"
+    },
+    {
+      "name": "montage-ai",
+      "version": "1.0",
+      "downloadUrl": "https://github.com/piertty/montage-ai/archive/main.zip",
+      "description": "Video montage and editing"
+    },
+    {
+      "name": "CoquiTTS",
+      "version": "1.0",
+      "downloadUrl": "https://github.com/coqui-ai/TTS/archive/main.zip",
+      "description": "Text-to-speech voiceover"
+    },
+    {
+      "name": "Manim",
+      "version": "1.0",
+      "downloadUrl": "https://github.com/ManimCommunity/manim/archive/main.zip",
+      "description": "2D animation engine for explainer shorts"
+    },
+    {
+      "name": "OpenSearch",
+      "version": "1.0",
+      "downloadUrl": "https://github.com/opensearch-project/OpenSearch/archive/main.zip",
+      "description": "Search engine for content indexing"
+    },
+    {
+      "name": "Lucy-128k",
+      "version": "1.0",
+      "downloadUrl": "https://huggingface.co/TheBloke/Lucy-128K-GGUF/resolve/main/lucy-128k.Q4_K_M.gguf",
+      "description": "Large language model (backup for smoll2lm)"
     }
-    // ... add more tools
-  ],
-  "dependencies": [
-    // ... system deps (optional)
   ]
 }
