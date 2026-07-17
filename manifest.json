@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "tools": [
+    {
+      "id": "smoll2lm",
+      "name": "smoll2lm AI Model",
+      "version": "1.0.0",
+      "type": "model",
+      "downloadUrl": "https://github.com/piertty/pack/releases/download/v1.0/smoll2lm.gguf",
+      "sha256": "your-sha256-hash",
+      "destination": "models/smoll2lm.gguf"
+    },
+    {
+      "id": "llama-server",
+      "name": "llama-server (CPU)",
+      "version": "b4395",
+      "type": "binary",
+      "downloadUrl": "https://github.com/piertty/pack/releases/download/v1.0/llama-server-win-avx2-x64.zip",
+      "sha256": "your-sha256-hash",
+      "destination": "bin/llama-server.exe",
+      "extract": true
+    }
+    // ... add more tools
+  ],
+  "dependencies": [
+    // ... system deps (optional)
+  ]
+}
